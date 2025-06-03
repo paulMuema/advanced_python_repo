@@ -1,4 +1,4 @@
-# This code demonstrates a simple multi-threading scenario where multiple agent
+# This code demonstrates a simple multi-threading scenario where multiple agents are used in performing a task
 import threading
 import time
 import random

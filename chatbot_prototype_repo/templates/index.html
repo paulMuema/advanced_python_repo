@@ -6,10 +6,12 @@
 </head>
 <body>
     <div class = "chat-container">
-        <h2>Property Chatbot</h2>
-        <div id="chat-box"></div>
-        <textarea id = "user-input" placeholder = "Ask about rent, maintenance, or properties..."></textarea>
-        <button onclick = "sendMessage()">Send</button>	
+        <div class = "chat-header"> Property ChatBot </div>
+        <div class = "chat-messages" id="chat-box"></div>
+        <div class = "chat-input">
+            <input type = "text" id = "user-input" placeholder = "Ask about rent, maintenance, or properties...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
     </div>
 
     <script>
